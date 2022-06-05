@@ -289,9 +289,10 @@ body {
 }
 
 .nav-open-btn {
-  color: --color;
+  color: var(--color);
   font-size: 32px;
   padding: 4px;
+
 }
 
 .navbar {
