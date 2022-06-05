@@ -28,11 +28,9 @@ aria-label = Open Menu
 
 #......... HERO ..........#
 
-We Are Product Designer From UK
 
-We Design Interfaces That Users Love
 
-Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus.
+
 
 Learn More
 
