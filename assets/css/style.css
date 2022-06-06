@@ -741,3 +741,31 @@ transition: var(--transition-2);
   text-decoration: none;
   color: var(--razzmatazz);
 }
+
+
+ /*-----------------------------------*\
+  #GO TO TOP
+\*-----------------------------------*/
+
+.go-top {
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  background-color: var(--winter-sky);
+  color: --white;
+  font-size: 2rem;
+  padding: 14px;
+  border-radius: var(--radius-4);
+  box-shadow: -3px 3px 15px var(--winter-sky_50);
+  z-index: 2;
+  opacity: 0;
+  visibility: hidden;
+  transition: var(--transition-1);
+
+}
+
+.go-top.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-15px);
+}

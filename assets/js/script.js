@@ -26,3 +26,19 @@ for (let i = 0; i < navLinks.length; i++) {
         overlay.classList.toggle('active');
     });
 }
+
+//activate header and go-top button when window scroll down to 400px;
+const header = document.querySelector("[data-header]");
+const goTop = document.querySelector("[data-gotop]");
+
+window.addEventListener('scroll', function () {
+    if(window.scrollY >= 400){
+        header.classList.add('active');
+        goTop.classList.add('active');
+    }
+    else{
+        header.classList.remove('active');
+        goTop.classList.remove('active');
+    }
+
+});
