@@ -75,23 +75,15 @@ aria-label = Show More
 
 #......... FEATURES ..........#
 
-Our Features
 
-<ion-icon name="bulb-outline"></ion-icon>
-Idea & Analysis
 
-Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis.
 
-<ion-icon name="color-palette-outline"></ion-icon>
-Designing
+
+
 
 alt = Features Banner
 
-<ion-icon name="code-slash-outline"></ion-icon>
-Development
 
-<ion-icon name="rocket-outline"></ion-icon>
-Testing & Lunching
 
 
 
@@ -99,31 +91,21 @@ Testing & Lunching
 
 #......... BLOG ..........#
 
-Our Blog & News
 
 alt = Vestibulum massa arcu, consectetu pellentesque scelerisque.
 
-Vestibulum massa arcu, consectetu pellentesque scelerisque.
 
-Sed quis sagittis velit. Aliquam velit eros, bibendum ut massa et, consequat laoreet erat nam ac imperdiet.
 
-<ion-icon name="time-outline"></ion-icon>
-7 March, 2022
 
 aria-label = Comment
 
-<ion-icon name="chatbubble-outline"></ion-icon>
 15
 
 aria-label = Share
-<ion-icon name="share-social-outline"></ion-icon>
 
 
-Quisque egestas iaculis felis eget placerat ut pulvinar mi.
 
-Fusce sem ligula, imperdiet sed nisi sit amet, euismod posuere.
 
-Donec feugiat mollis nisi in dignissim. Morbi sollicitudin quis.
 
 
 
@@ -133,16 +115,12 @@ Donec feugiat mollis nisi in dignissim. Morbi sollicitudin quis.
 
 Desinic
 
-Maecenas pellentesque placerat quam, in finibus nisl tincidunt sed. Aliquam magna augue, malesuada ut feugiat eget, cursus eget felis.
 
-<ion-icon name="logo-facebook"></ion-icon>
-<ion-icon name="logo-instagram"></ion-icon>
-<ion-icon name="logo-twitter"></ion-icon>
 
-Our links
+
 
 Home
-About Us
+
 Services
 Team
 Blog
