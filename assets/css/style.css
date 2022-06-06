@@ -233,14 +233,20 @@ body {
   border-radius: 10px;
 }
 
-.service-card .title {
+:is(.service-card, .features-card) .title {
   color: var(--st-patricks-blue);
   font-size: var(--fs-4);
   font-weight: var(--fw-700);;
 }
 
-.service-card .text {
+:is(.service-card, .features-card, .blog-card) .text {
   font-size: var(--fs-8);
+}
+
+.img-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 
@@ -509,5 +515,129 @@ body {
 .service-card .card-btn:is(:hover, :focus) {
   color: var(--white);
   background-color: var(--winter-sky);
+}
+
+ /*-----------------------------------*\
+  #Features
+\*-----------------------------------*/
+.features-list > li:first-child {
+  margin-block-end: 30px;
+}
+
+.features-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.features-card .icon {
+  background-image: var(--gradient-1);
+  background-size: 200%;
+  color: var(--white);
+  min-width: max-content;
+  max-width: max-content;
+  font-size: 36px;
+  padding: 22px;
+  border-radius: 50%;
+}
+
+.features-card .icon ion-icon {
+  --ionicon-stroke-width: 20px;
+}
+
+.features-card .title {
+  margin-block-end: 10px;
+}
+
+.features-banner {
+  margin-block: 40px;
+}
+
+.features-banner > img {
+  margin-inline: auto;
+  max-width: max-content;
+}
+
+
+
+ /*-----------------------------------*\
+  #Blogs
+\*-----------------------------------*/
+.blog {
+  padding-block-end: 120px;
+}
+
+.blog-list {
+  display: grid;
+  gap: 30px;
+}
+
+.blog-card {
+  padding: 20px;
+  box-shadow: var(--shadow);
+  border-radius: var(--radius-12);
+}
+
+.blog-card .banner {
+  border-radius: var(--radius-12);
+  overflow: hidden;
+  margin-block-end: 15px;
+}
+
+.blog-card .banner img {
+
+transition: var(--transition-2);
+}
+
+.blog-card .banner a:is(:hover, :focus) img {
+  transform: scale(1.1);
+}
+
+.blog-card .title {
+  color: var(--st-patricks-blue);
+  font-size: var(--fs-6);
+  line-height: 1.2;
+  margin-block-end: 15px;
+}
+
+.blog-card .title > a {
+  color: inherit;
+}
+
+.blog-card .title > a:is(:hover, :focus) {
+  color: var(--razzmatazz);
+}
+
+.blog-card .text {
+  margin-block-end: 15px;
+}
+
+.blog-card .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  font-size: var(--fs-8);
+  color: var(--purple-navy);
+  font-weight: var(--fw-500);
+  padding-block-end: 10px;
+}
+
+.blog-card .meta ion-icon {
+  color: var(--winter-sky);
+  font-size: 22px;
+  --ionicon-stroke-width: 35px;
+}
+
+.publish-date,
+.comment {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.comment {
+  color: inherit;
+  margin-inline-start: auto;
 }
 

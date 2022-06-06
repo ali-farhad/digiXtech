@@ -42,14 +42,11 @@ alt = hero-banner
 
 alt = about banner
 
-Why Our Agency
 
-In dictum aliquam turpis lacinia iaculis. Fusce vel malesuada magna. Nulla vel maximus risus. Donec volutpat metus lacinia risus accumsan, ac bibendum libero efficitur. Pellentesque nec nisi sit amet magna tempus hendrerit ut a odio.
 
-Praesent rhoncus commodo tortor, id pulvinar nisl blandit at. Nulla facilisi. Quisque turpis ante, vehicula condimentum arcu.
 
-9875
-Satisfied Clients
+
+
 
 7894
 Project Lunched
@@ -63,22 +60,14 @@ Years Completed
 
 #......... SERVICE ..........#
 
-Our Speciallization
 
-<ion-icon name="telescope-outline"></ion-icon>
 
-Strategy & Research
 
-Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor.
+
 
 aria-label = Show More
-<ion-icon name="chevron-forward-outline"></ion-icon>
 
-<ion-icon name="desktop-outline"></ion-icon>
-Web Development
 
-<ion-icon name="globe-outline"></ion-icon>
-Web Solution
 
 
 
